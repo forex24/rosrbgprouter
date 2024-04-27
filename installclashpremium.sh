@@ -3,7 +3,8 @@ apt update
 apt install bird2 -y
 
 echo "开始下载 clash premium"
-wget https://github.com/Dreamacro/clash/releases/download/premium/clash-linux-amd64-2023.08.17.gz
+#wget https://github.com/Dreamacro/clash/releases/download/premium/clash-linux-amd64-2023.08.17.gz
+wget https://github.com/Kuingsmile/clash-core/releases/download/premium/clash-linux-amd64-2023.08.17.gz
 echo "clash premium 下载完成"
 
 echo "开始解压"
@@ -28,7 +29,7 @@ echo "复制完成"
 
 echo "开始下载 yacd"
 cd /etc/clash
-wget https://github.com/haishanh/yacd/releases/download/v0.3.7/yacd.tar.xz
+wget https://github.com/haishanh/yacd/releases/download/v0.3.8/yacd.tar.xz
 echo "yacd 下载完成"
 
 echo "开始解压 yacd"
